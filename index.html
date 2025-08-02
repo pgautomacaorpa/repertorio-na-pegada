@@ -23,147 +23,442 @@
             margin-bottom: 5px;
         }
         .musica {
-            font-size: 16px;
-            margin: 5px 0;
-            padding-bottom: 8px; /* Espaço entre os itens */
-            border-bottom: 1px solid #ccc; /* Linha fina de separação */
-            margin-bottom: 8px;
+            margin: 15px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #ccc;
         }
-
-        
-        .notas {
-            color: red;
+        .nome-musica {
+            font-size: 20px;
             font-weight: bold;
+            color: #222;
+            margin-bottom: 4px;
+            letter-spacing: 1px;
+        }
+        .notas {
+            display: block;
+            color: #fff;
+            background: #d32f2f;
+            font-weight: bold;
+            font-size: 16px;
+            padding: 3px 10px;
+            border-radius: 4px;
+            margin-bottom: 6px;
+            width: fit-content;
+            box-shadow: 0 2px 8px rgba(211,47,47,0.15);
+        }
+        .frase-inicial {
+            font-size: 16px;
+            color: #444;
+            margin-top: 2px;
+            font-style: italic;
         }
     </style>
 </head>
 <body>
     <h1>Repertório Musical</h1>
-    
     <div class="bloco">
         <div class="titulo">ANIMADAS PARA INICIO</div>
-        <div class="musica">TÁ VENDO AQUELA LUA <span class="notas">(C-G-G7-D7) (Bm-C-B7-Em7)</span> - Te filmando eu tava…</div>
-        <div class="musica">LIVRE PRA VOAR <span class="notas">(C-C7-F-Fm Am Bm Em7)</span>Le - Le - Quando a gente se encontrar…</div>
-        <div class="musica">MANDA ÁUDIO <span class="notas">(G - A9 - F#m7 - D)</span> - Você me deixou na loucura…</div>
-        <div class="musica">PÉ NA AREIA <span class="notas">(DM7-G Em7-G-DM7-B7)</span> - Vamos amor…</div>
-        <div class="musica">LANCINHO <span class="notas">(Bb-C – G-Am7-D7)</span> - Namora mas adora…</div>
-        <div class="musica">TCHAU E BENÇA <span class="notas">(D6-Gm-A7 REF G7M-F#7-Bm-D7)</span> - Eu bem que te falei...</div>
-        <div class="musica">A BATUCADA TE PEGOU <span class="notas">(C-C7-F7-G7)</span> - Não adianta chegar…</div> 
-        <div class="musica">É NO PAGODE <span class="notas">(Am-Bm-E7)</span> Quero ver voce, abalando no pagode...</div>
-        <div class="musica">DEIXA EM OFF <span class="notas">(Bm7-G-Em7-A-F#7)</span> - Eu sei que não era pra gente…</div>
+        <div class="musica">
+            <span class="nome-musica">TÁ VENDO AQUELA LUA</span>
+            <span class="notas">(C - G7+ - G7) (C - D7 - Em7 - Bm)</span>
+            <span class="frase-inicial">Te filmando eu tava…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">LIVRE PRA VOAR</span>
+            <span class="notas">(C7M - C7 - F7M - G7) (Am7 - F#m7 - Bm7 - E7)</span>
+            <span class="frase-inicial">Le Le, Quando a gente se encontrar…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">MANDA ÁUDIO</span>
+            <span class="notas">(G - A9 - F#m7 - D)</span>
+            <span class="frase-inicial">Você me deixou na loucura…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">PÉ NA AREIA</span>
+            <span class="notas">(DM7 - G - Gm) (Em7 - G - DM7 - B7)</span>
+            <span class="frase-inicial">Vamos amor…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">LANCINHO</span>
+            <span class="notas">(Bb - C) (Gm7 - Am7 - D7)</span>
+            <span class="frase-inicial">Namora mas adora…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">TCHAU E BENÇA</span>
+            <span class="notas">(D6 - Gm - A7) (G7M - F#7 - Bm - D7)</span>
+            <span class="frase-inicial">Eu bem que te falei...</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">A BATUCADA TE PEGOU</span>
+            <span class="notas">(C - C7 - F7 - G7)</span>
+            <span class="frase-inicial">Não adianta chegar…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">É NO PAGODE</span>
+            <span class="notas">(Am - Bm - E7)</span>
+            <span class="frase-inicial">Quero ver voce, abalando no pagode...</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">DEIXA EM OFF</span>
+            <span class="notas">(Bm7 - G - Em7 - A - F#7)</span>
+            <span class="frase-inicial">Eu sei que não era pra gente…</span>
+        </div>
     </div>
-    
     <div class="bloco">
         <div class="titulo">BRABO D+</div>
-        <div class="musica">CURTINDO A VIDA <span class="notas">(Em7-F#m7-B7-G7+)</span> - Guere Guere…</div>
-        <div class="musica">DEIXA ACONTECER <span class="notas">(G - D7M - F#m7 - Em7 - A7)</span></div>
-        <div class="musica">TA ESCRITO <span class="notas">(F)</span>- Quem cultiva a semente</div>
-        <div class="musica">JOGO DE SEDUÇÃO<span class="notas">(C-Fm)</span>Leeee…</div>
-        <div class="musica">SÓ VAI DE CAMAROTE <span class="notas">(Dm-G7-Dm-F7 – Em7-A7)</span> - Rainha da balada…</div>
-        <div class="musica">CORAÇÃO RADIANTE <span class="notas">(C - G - G# - Am) (REF = C - C7 - F - G7)</span> - Meu coração…</div>
-        <div class="musica">COMPASSO DO AMOR <span class="notas">(C - G - E7 - Am7)</span> - Quero sentir teu abraço…</div>
-        <div class="musica">GRADES DO CORAÇÃO <span class="notas">(Am-D7-G-F-E7)</span> - Quando eu te vi…</div>
+        <div class="musica">
+            <span class="nome-musica">CURTINDO A VIDA</span>
+            <span class="notas">(Em7 - F#m7 - B7)</span>
+            <span class="frase-inicial">Guere Guere…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">DEIXA ACONTECER</span>
+            <span class="notas">(G - D7M - F#m7 - Em7 - A7)</span>
+            <span class="frase-inicial">Deixa acontecer naturalmente...</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">TA ESCRITO</span>
+            <span class="notas">(F - C - B)</span>
+            <span class="frase-inicial">Quem cultiva a semente do amor...</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">JOGO DE SEDUÇÃO</span>
+            <span class="notas">(C - Fm)</span>
+            <span class="frase-inicial">Leeee… Só voce tem o meu amor...</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">SÓ VAI DE CAMAROTE</span>
+            <span class="notas">(Dm - G7 - Dm - F7) (Em7 - A7)</span>
+            <span class="frase-inicial">Rainha da balada…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">CORAÇÃO RADIANTE</span>
+            <span class="notas">(C - G - G# - Am) (C - C7 - F - G7)</span>
+            <span class="frase-inicial">Meu coração…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">COMPASSO DO AMOR</span>
+            <span class="notas">(C - G - E7 - Am7)</span>
+            <span class="frase-inicial">Quero sentir teu abraço…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">GRADES DO CORAÇÃO</span>
+            <span class="notas">(Am - D7 - G - F - E7)</span>
+            <span class="frase-inicial">Quando eu te vi…</span>
+        </div>
     </div>
-    
-       <div class="bloco">
-        <div class="titulo">NEJITO</div>
-        <div class="musica">SOSSEGUEI <span class="notas">(G - D - Em - C)</span> - Tô virado já tem uns 3 dias…</div>
-        <div class="musica">ERRO GOSTOSO <span class="notas">(F# - Dm# - B - C# - G#m)</span> - Calma, deixa eu respirar…</div>
-        <div class="musica">O QUE É QUE TEM <span class="notas">(G - D - Am - C)</span> - E pra deixar acontecer…</div>
-        <div class="musica">QUE SORTE A NOSSA <span class="notas">(G - C - Em - D)</span> - Diz que pensa tanto em mim…</div>
-        <div class="musica">MEDO BOBO <span class="notas">(D - E - F#m - A)</span> - Ah, esse tom de voz eu reconheço…</div>
-        <div class="musica">GRAVETO <span class="notas">(Em-D-C)</span> - Vou ser sincero com você…</div>
-        <div class="musica">MAUS BOCADOS <span class="notas">(C9-F9-Dm-G)</span> - Sei que seu coração…</div>
-        <div class="musica">BEBÉ E VEM ME PROCURAR <span class="notas">(Fm - Eb - Bbm - Db)</span> - Eu sei que você fala por aí…</div>
-        
-    </div>
-
     <div class="bloco">
-        <div class="titulo">RELEMBRANDO AS CLASSICAS</div>   
-        <div class="musica">É TARDE DEMAIS <span class="notas">(E-F#m – C#m-G#m-A-B7)</span> - Olha só você…</div>    
-        <div class="musica">MARROM BOMBOM <span class="notas">(G7+ - Bm7 - Am7 - D7 REF Em)</span> - A gente tem tudo pra dar certo…</div>    
-        <div class="musica">ESSA TAL LIBERDADE<span class="notas">(E-G#m - A-B7)</span> - Quero te abraçar!…</div>     
-        <div class="musica">CORAZON PARTÍU<span class="notas">(f#- A#m)</span> - eu tentei ficar com vc…</div>   
-        <div class="musica">ELA É DEMAIS <span class="notas">(G - Em - C - D)</span> - Ela tem um jeito lindo…</div>  
-        <div class="musica">CONVITE DE CASAMENTO <span class="notas">(C - Em - Am - F - G)</span> - A gente morou e cresceu…</div>  
-        <div class="musica">DEUS ME LIVRE <span class="notas">(C-G-Am-Em-F-G7)</span> - Te amo mais não quero…</div>
-        <div class="musica">MORANGO DO NORDESTE <span class="notas">(C-G-Dm-Am)</span> - Estava tão tristonho…</div>
-        <div class="musica">PÁGINA DE AMIGOS <span class="notas">(C - G - F)</span> - Como é que eu posso…</div> 
+        <div class="titulo">NEJITO</div>
+        <div class="musica">
+            <span class="nome-musica">SOSSEGUEI</span>
+            <span class="notas">(G - D - Em - C)</span>
+            <span class="frase-inicial">Tô virado já tem uns 3 dias…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">ERRO GOSTOSO</span>
+            <span class="notas">(F# - Dm# - B - C# - G#m)</span>
+            <span class="frase-inicial">Calma, deixa eu respirar…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">O QUE É QUE TEM</span>
+            <span class="notas">(G - D - Am - C)</span>
+            <span class="frase-inicial">E pra deixar acontecer…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">QUE SORTE A NOSSA</span>
+            <span class="notas">(G - C - Em - D)</span>
+            <span class="frase-inicial">Diz que pensa tanto em mim…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">MEDO BOBO</span>
+            <span class="notas">(D - E - F#m - A)</span>
+            <span class="frase-inicial">Ah, esse tom de voz eu reconheço…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">GRAVETO</span>
+            <span class="notas">(Em - D - C)</span>
+            <span class="frase-inicial">Vou ser sincero com você…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">MAUS BOCADOS</span>
+            <span class="notas">(C9 - F9 - Dm - G)</span>
+            <span class="frase-inicial">Sei que seu coração…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">BEBÉ E VEM ME PROCURAR</span>
+            <span class="notas">(Fm - Eb - Bbm - Db)</span>
+            <span class="frase-inicial">Eu sei que você fala por aí…</span>
+        </div>
     </div>
-    
-    
+    <div class="bloco">
+        <div class="titulo">RELEMBRANDO AS CLASSICAS</div>
+        <div class="musica">
+            <span class="nome-musica">É TARDE DEMAIS</span>
+            <span class="notas">(E - F#m) (C#m - G#m - A - B7)</span>
+            <span class="frase-inicial">Olha só você…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">MARROM BOMBOM</span>
+            <span class="notas">(G7+ - Bm7 - Am7 - D7 REF Em)</span>
+            <span class="frase-inicial">A gente tem tudo pra dar certo…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">ESSA TAL LIBERDADE</span>
+            <span class="notas">(E - G#m - A - B7)</span>
+            <span class="frase-inicial">Quero te abraçar!…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">CORAZON PARTÍU</span>
+            <span class="notas">(F# - A#m - G#m - C#7)</span>
+            <span class="frase-inicial">Eu tentei ficar com vc…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">ELA É DEMAIS</span>
+            <span class="notas">(G - Em - C - D)</span>
+            <span class="frase-inicial">Ela tem um jeito lindo…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">CONVITE DE CASAMENTO</span>
+            <span class="notas">(C - Em - Am - F - G)</span>
+            <span class="frase-inicial">A gente morou e cresceu…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">DEUS ME LIVRE</span>
+            <span class="notas">(C - G - Am - Em - F - G7)</span>
+            <span class="frase-inicial">Te amo mais não quero…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">MORANGO DO NORDESTE</span>
+            <span class="notas">(C - G - Dm - Am)</span>
+            <span class="frase-inicial">Estava tão tristonho…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">PÁGINA DE AMIGOS</span>
+            <span class="notas">(C - G - F)</span>
+            <span class="frase-inicial">Como é que eu posso ser amigo…</span>
+        </div>
+    </div>
     <div class="bloco">
         <div class="titulo">ROMANTICA NEUTRAS FINALIZA PRA CIMA</div>
-        <div class="musica">CHEIA DE MANIAS <span class="notas">(F-Gm)</span></div> 
-        <div class="musica">TEMPORAL <span class="notas">(Gm)</span> - Faz tempo que a gente não é…</div>
-        <div class="musica">VELOCIDADE DA LUZ <span class="notas">(Gm)</span> - Eu já não  sei mais…</div>
-        <div class="musica">DEIXA ALAGAR <span class="notas">(Gm-Fm-B7-Cm-D7)</span> - Lembro da gente…</div>
-        <div class="musica">A FILA ANDA <span class="notas">(Dm-F-C-G)</span> - A fila anda e você volta…</div>
-        <div class="musica">SOU O CARA PRA VOCÊ <span class="notas">(E7M-C#M7-D#7m-G#m7)</span> - Ele não merece…</div>
-        <div class="musica">DESENCANA <span class="notas">(D - C - G)</span> - La la laia - Não sei porque quis se esconder…</div>
-        <div class="musica">LANCE LIVRE <span class="notas">(F#m-A-C#m-B)</span>- O nosso lance é livre!...</div>
-        
-        
-    
+        <div class="musica">
+            <span class="nome-musica">CHEIA DE MANIAS</span>
+            <span class="notas">(Gm - F)</span>
+            <span class="frase-inicial">Cheia de manias, toda dengosa...</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">TEMPORAL</span>
+            <span class="notas">(Gm - C#m - F7 - Bb)</span>
+            <span class="frase-inicial">Faz tempo que a gente não é…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">VELOCIDADE DA LUZ</span>
+            <span class="notas">(Gm)</span>
+            <span class="frase-inicial">Eu já não sei mais…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">DEIXA ALAGAR</span>
+            <span class="notas">(Gm - Fm - B7 - Cm - D7)</span>
+            <span class="frase-inicial">Lembro da gente…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">A FILA ANDA</span>
+            <span class="notas">(Dm - F - C - G)</span>
+            <span class="frase-inicial">A fila anda e você volta…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">SOU O CARA PRA VOCÊ</span>
+            <span class="notas">(E7M - C#M7 - D#7m - G#m7)</span>
+            <span class="frase-inicial">Ele não merece…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">DESENCANA</span>
+            <span class="notas">(D - C - G)</span>
+            <span class="frase-inicial">La la laia - Não sei porque quis se esconder…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">LANCE LIVRE</span>
+            <span class="notas">(F#m - A - C#m - B)</span>
+            <span class="frase-inicial">O nosso lance é livre!...</span>
+        </div>
     </div>
-
     <div class="bloco">
         <div class="titulo">PAGODAGEM BRABAS</div>
-         <div class="musica">CILADA <span class="notas">(Am G7 - C - Bm - E7 REF Am-F7-E7)</span>Quase morri do coração...</div>
-        <div class="musica">TODA NOITE <span class="notas">((E-C#m ) - G#m - A - B)</span>Toda noite eu...</div>
-        <div class="musica">SELINHO <span class="notas">(D#m-G#m - F#7 - Cm7 Cm#7)</span> - Aquela imagem…</div>
-        <div class="musica">A GENTE JÁ NÃO ROLA <span class="notas">(Bb7M-C7 ,Em7-A7 Cm-F7)</span> - Já não vou mais…</div>
-        <div class="musica">FUGIDINHA <span class="notas">(D-A-Em-A7(C#m-F#m-Bm)F G D A)</span> - To bem na parada…</div>
-        <div class="musica">LAPADA DELA <span class="notas">(Em - Am - C - B)</span> - Me apaixonei por uma menina…</div>
-        <div class="musica">PORRADÃO <span class="notas">(C - Am - F7+ - Bm -  G7)</span> - É isso ai, me deu vontade...</div>
-        
-        <div class="musica">BABY ME ATENDE <span class="notas">(Cm - Fm - G# - Gm)</span> - Abandonado dentro…</div>
-        
-
-
-
+        <div class="musica">
+            <span class="nome-musica">CILADA</span>
+            <span class="notas">(Am G7 - C - Bm - E7 REF Am - F7 - E7)</span>
+            <span class="frase-inicial">Quase morri do coração...</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">TODA NOITE</span>
+            <span class="notas">(E - C#m)(G#m - A - B)</span>
+            <span class="frase-inicial">Toda noite eu...</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">SELINHO</span>
+            <span class="notas">(D#m - G#m - F#7 - Cm7 - Cm#7)</span>
+            <span class="frase-inicial">Aquela imagem…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">A GENTE JÁ NÃO ROLA</span>
+            <span class="notas">(Bb7M - C7)(D - B7)</span>
+            <span class="frase-inicial">Já não vou mais…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">FUGIDINHA</span>
+            <span class="notas">(D6 - Bm7 - A - Em)(C#m7 - F#m7 - Bm6 Em7 - A7)</span>
+            <span class="frase-inicial">To bem na parada…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">LAPADA DELA</span>
+            <span class="notas">(Em - Am - C - B)</span>
+            <span class="frase-inicial">Me apaixonei por uma menina…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">PORRADÃO</span>
+            <span class="notas">(C - Am - F7+ - Bm -  G7)</span>
+            <span class="frase-inicial">É isso ai, me deu vontade...</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">BABY ME ATENDE</span>
+            <span class="notas">(Cm - Fm - G# - Gm)</span>
+            <span class="frase-inicial">Abandonado dentro…</span>
+        </div>
     </div>
-
-
-    
+    <div class="bloco">
+        <div class="titulo">BLOCO NOVO!!!</div>
+        <div class="musica">
+            <span class="nome-musica">P DO PECADO</span>
+            <span class="notas">(C - F - Am - G7)</span>
+            <span class="frase-inicial">Uma ligação fria<br>
+                                        Com um convite quente<br>
+                                        Você é uma comprometida que me liga<br>
+                                        E eu sou o solteiro que atende<br>
+                                        Depois que o suor seca no chão<br>
+                                        É fácil me chamar de tentação<br>
+                                        Como se eu fosse o culpado<br>
+                                        Do que cê faz com o seu namorado<br>
+                                        Como se eu que tivesse alguém<br>
+                                        Mas, diferente de você, meu beijo não tá enganando ninguém<br>
+                                        Jogando erro contra erro</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">MELHOR EU IR</span>
+            <span class="notas">(D7M(9) - G7M - Gm7) (Bm7 - F#m7 - Em7 )(C7(4/9) - B7(4/9) - Bb7(4/9) - A7(4/9))</span>
+            <span class="frase-inicial">Melhor eu ir, tudo bem vai ser melhor só...</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">VITAMINA C</span>
+            <span class="notas">(Bbm7- C#7M - Eb - Fm11)</span>
+            <span class="frase-inicial">Ô mô<br>
+                                        Ultimamente eu tô fraquinho de saudade<br>
+                                        Ô mô<br>
+                                        Chega baixou a minha imunidade<br>
+                                        Sem teu love, teu cheiro, teu jeito, teu dengo<br>
+                                        Tá tão, tão ruim<br>
+                                        Coração anda debilitado<br>
+                                        Só tem um remédio pra mim<br>
+                                        Pro seu mozão sobreviver<br>
+                                        Precisa de vitamina C<br>
+                                        Cê na minha vida<br>
+                                        Cê na minha cama</span>
+        </div>
+    </div>
     <div class="bloco">
         <div class="titulo">AS VEZES!</div>
-        <div class="musica">TEM CAFÉ <span class="notas">(C-Em-B)</span> - Você já sabe qual é…</div>
-        <div class="musica">FAZER FALTA<span class="notas">(C-D9-Em)</span> - Na hora que me escutar…</div>
-        <div class="musica">AGORA VAI SENTAR <span class="notas">(D#m-G#m)</span> - Você vai sentar por cima…</div>
-        <div class="musica">TALARICA <span class="notas">(Gm-Cm-D)</span> - Eu rezo por você…</div>
-        <div class="musica">JÁ QUE ME ENSINOU A BEBER <span class="notas">(C-D-Bm-Em)</span> - Eu prometi não mais te procurar…</div>    
+        <div class="musica">
+            <span class="nome-musica">TEM CAFÉ</span>
+            <span class="notas">(C - Em - B)</span>
+            <span class="frase-inicial">Você já sabe qual é…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">FAZER FALTA</span>
+            <span class="notas">(C - D9 - Em)</span>
+            <span class="frase-inicial">Na hora que me escutar…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">AGORA VAI SENTAR</span>
+            <span class="notas">(D#m - G#m)</span>
+            <span class="frase-inicial">Você vai sentar por cima…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">TALARICA</span>
+            <span class="notas">(Gm - Cm - D)</span>
+            <span class="frase-inicial">Eu rezo por você…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">JÁ QUE ME ENSINOU A BEBER</span>
+            <span class="notas">(C - D - Bm - Em)</span>
+            <span class="frase-inicial">Eu prometi não mais te procurar…</span>
+        </div>
     </div>
-
-   
-
     <div class="bloco">
         <div class="titulo">Bloco 07</div>
-        <div class="musica">CERVEJA DE GARRAFA <span class="notas">(E9 - A9 / E7M - F#m - B7)</span> - Bacana como…</div>
-        <div class="musica">TENTEI SER INCRIVEL<span class="notas">(E9 - A7+ - B F#m - G#m - C#m)</span>- Pra te conquistar...</div>
-        <div class="musica">NÃO TEM PRA NINGUEM</Nav><span class="notas">(Cm - Bbm7 - Eb7 - Ab7 - Dm - G7)</span>- Que fecha que cola comigo... Ela quer que eu dou carinho...</div>
-        <div class="musica">PAIS E FILHOS <span class="notas">(C-D-G / F-Em-C-Bm-Am / G-C-Em-C)</span> - Estátuas e cofres…</div>
-        <div class="musica">TEMPO PERDIDO <span class="notas">(C-Am-Bm-Em)</span> - Todos os dias quando acordo…</div>
-        <div class="musica">PESCADOR DE ILUSÕES <span class="notas">(Am-G / C)</span> - Se meus joelhos…</div>
+        <div class="musica">
+            <span class="nome-musica">CERVEJA DE GARRAFA</span>
+            <span class="notas">(E9 - A9 / E7M - F#m - B7)</span>
+            <span class="frase-inicial">Bacana como…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">TENTEI SER INCRIVEL</span>
+            <span class="notas">(E9 - A7+ - B - F#m - G#m - C#m)</span>
+            <span class="frase-inicial">Pra te conquistar...</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">NÃO TEM PRA NINGUEM</span>
+            <span class="notas">(Cm - Bbm7 - Eb7 - Ab7 - Dm - G7)</span>
+            <span class="frase-inicial">Ela quer eu dou carinho a beça me pede depressa<br>
+                                        Mil beijos eu dou, desejos de amor<br>
+                                        Ela vem toda maneira menina ligeira<br>
+                                        Faz charme pra me provocar<br>
+                                        Ela me faz delirar<br>
+                                        Só ela sabe o jeito que eu gosto<br>
+                                        E eu gosto do jeito que ninguém mais faz<br>
+                                        Mas ela faz tão bem e não tem pra ninguém (2x)</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">PAIS E FILHOS</span>
+            <span class="notas">(C-D-G / F-Em-C-Bm-Am / G-C-Em-C)</span>
+            <span class="frase-inicial">Estátuas e cofres…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">TEMPO PERDIDO</span>
+            <span class="notas">(C-Am-Bm-Em)</span>
+            <span class="frase-inicial">Todos os dias quando acordo…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">PESCADOR DE ILUSÕES</span>
+            <span class="notas">(Am-G / C)</span>
+            <span class="frase-inicial">Se meus joelhos…</span>
+        </div>
     </div>
-    
-    
     <div class="bloco">
         <div class="titulo">Bloco 08</div>
-        <div class="musica">AMIGA DA MINHA MULHER <span class="notas">(Dm-E7-Am / Dm-G7-C7M)</span> - Ela é amiga da minha…</div>
-        <div class="musica">VOCÊ É ALGO ASSIM <span class="notas">(C - Dm - Em- F)</span> - Você é mais do que sei…</div>
-        <div class="musica">GOSTAVA TANTO DE VOCÊ <span class="notas">(A7M-Bm7-C#m7- E7)</span> - Não sei porque você…</div>
-        <div class="musica">BURGUESINHA <span class="notas">(A7M-D7M , C#m7-Bm7-E7)</span> - Vai no cabeleireiro…</div>
-        <div class="musica">HOMEM ARANHA <span class="notas">(Am-G-F-Cm-B7)</span> - Eu adoro andar no abismo…</div>
+        <div class="musica">
+            <span class="nome-musica">AMIGA DA MINHA MULHER</span>
+            <span class="notas">(Dm-E7-Am / Dm-G7-C7M)</span>
+            <span class="frase-inicial">Ela é amiga da minha…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">VOCÊ É ALGO ASSIM</span>
+            <span class="notas">(C - Dm - Em- F)</span>
+            <span class="frase-inicial">Você é mais do que sei…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">GOSTAVA TANTO DE VOCÊ</span>
+            <span class="notas">(A7M-Bm7-C#m7- E7)</span>
+            <span class="frase-inicial">Não sei porque você…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">BURGUESINHA</span>
+            <span class="notas">(A7M-D7M , C#m7-Bm7-E7)</span>
+            <span class="frase-inicial">Vai no cabeleireiro…</span>
+        </div>
+        <div class="musica">
+            <span class="nome-musica">HOMEM ARANHA</span>
+            <span class="notas">(Am-G-F-Cm-B7)</span>
+            <span class="frase-inicial">Eu adoro andar no abismo…</span>
+        </div>
     </div>
-
- 
-
     <!-- Adicione os outros blocos seguindo o mesmo padrão -->
-
-
-
-    
-    
 </body>
 </html>
